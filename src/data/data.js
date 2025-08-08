@@ -190,4 +190,12 @@ export const listProyek = [
     tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
     dad: "300",
   },
+  {
+    id: 3,
+    gambar: Proyek3,
+    nama: "Web Pernikahan 2.0",
+    desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
+    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    dad: "400",
+  },
 ];
