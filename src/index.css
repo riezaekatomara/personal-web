@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+.hero-gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glow-effect {
+  box-shadow: 0 0 50px rgba(99, 102, 241, 0.3);
+}
+
+.img-person {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
