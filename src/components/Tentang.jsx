@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Hand } from "lucide-react";
 import DataImage from "../data/data";
 
 function Tentang() {
@@ -60,7 +61,7 @@ function Tentang() {
             }`}
           >
             <div className="w-6 h-6 rounded-full bg-gradient-to-r from-indigo-500 to-purple-600 flex items-center justify-center">
-              <span className="text-xs">👋</span>
+              <Hand className="w-3 h-3 text-white" />
             </div>
             <span className="text-sm text-gray-300">Tentang Saya</span>
           </div>

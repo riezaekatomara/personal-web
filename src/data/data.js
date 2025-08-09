@@ -19,13 +19,14 @@ import Tools10 from "/assets/tools/node.svg";
 import Tools11 from "/assets/tools/nest.svg";
 import Tools12 from "/assets/tools/postgre.svg";
 import Tools13 from "/assets/tools/supabase.svg";
-import Tools14 from "/assets/tools/github.png";
-import Tools15 from "/assets/tools/vercel.svg";
-import Tools16 from "/assets/tools/canva.svg";
-import Tools17 from "/assets/tools/figma.svg";
-import Tools18 from "/assets/tools/word.png";
-import Tools19 from "/assets/tools/excel.svg";
-import Tools20 from "/assets/tools/powerpoint.png";
+import Tools14 from "/assets/tools/firebase.svg";
+import Tools15 from "/assets/tools/github.png";
+import Tools16 from "/assets/tools/vercel.svg";
+import Tools17 from "/assets/tools/canva.svg";
+import Tools18 from "/assets/tools/figma.svg";
+import Tools19 from "/assets/tools/word.png";
+import Tools20 from "/assets/tools/excel.svg";
+import Tools21 from "/assets/tools/powerpoint.png";
 
 export const listTools = [
   {
@@ -46,21 +47,21 @@ export const listTools = [
     id: 3,
     gambar: Tools3,
     nama: "CSS",
-    ket: "Styling Language",
+    ket: "Style Sheet Language",
     dad: "300",
   },
   {
     id: 4,
     gambar: Tools4,
     nama: "Javascript",
-    ket: "Language",
+    ket: "Programming Language",
     dad: "400",
   },
   {
     id: 5,
     gambar: Tools5,
     nama: "Typescript",
-    ket: "Language",
+    ket: "Programming Language",
     dad: "500",
   },
   {
@@ -116,62 +117,70 @@ export const listTools = [
     id: 13,
     gambar: Tools13,
     nama: "Supabase",
-    ket: "Backend Service",
+    ket: "Backend as a Service",
     dad: "1300",
   },
   {
     id: 14,
     gambar: Tools14,
-    nama: "Github",
-    ket: "Repository",
+    nama: "Firebase",
+    ket: "Backend as a Service",
     dad: "1400",
   },
   {
     id: 15,
     gambar: Tools15,
-    nama: "Vercel",
-    ket: "Deployment Platform",
+    nama: "Github",
+    ket: "Repository",
     dad: "1500",
   },
   {
     id: 16,
     gambar: Tools16,
-    nama: "Canva",
-    ket: "Design App",
+    nama: "Vercel",
+    ket: "Deployment Platform",
     dad: "1600",
   },
   {
     id: 17,
     gambar: Tools17,
-    nama: "Figma",
+    nama: "Canva",
     ket: "Design App",
     dad: "1700",
   },
   {
     id: 18,
     gambar: Tools18,
-    nama: "Microsoft Word",
-    ket: "Word Processor",
+    nama: "Figma",
+    ket: "Design App",
     dad: "1800",
   },
   {
     id: 19,
     gambar: Tools19,
-    nama: "Microsoft Excel",
-    ket: "Spreadsheet",
+    nama: "Microsoft Word",
+    ket: "Office App",
     dad: "1900",
   },
   {
     id: 20,
     gambar: Tools20,
+    nama: "Microsoft Excel",
+    ket: "Office App",
+    dad: "2000",
+  },
+  {
+    id: 21,
+    gambar: Tools21,
     nama: "Microsoft PowerPoint",
     ket: "Presentation",
-    dad: "2000",
+    dad: "2100",
   },
 ];
 
 import Proyek1 from "/assets/proyek/proyek1.webp";
 import Proyek2 from "/assets/proyek/proyek2.webp";
+import Proyek3 from "/assets/proyek/proyek3.webp";
 
 export const listProyek = [
   {
